@@ -65,6 +65,7 @@ section {
 .main-subtitle {
   margin: 12px 0 60px 0;
   font-weight: bolder;
+  text-shadow: 1px 1px 2px white, 0 0 25px white;
 }
 
 .btn {
@@ -126,6 +127,7 @@ section {
 
 .section-intro {
   margin: 36px 0 0 0;
+  text-align: justify;
 }
 
 .features-wrapper {
@@ -281,6 +283,35 @@ section {
 .paralax-statement {
   text-shadow: 1px 1px 2px white, 0 0 25px white;
   font-weight: bold;
+}
+
+.navigation {
+  background-color: #fd79a8;
+  padding: 6px 0;
+  text-align: right;
+  transition: all 0.5s;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation ul li {
+  display: inline-block;
+  margin-right: 10px;
+  transition: all 0.5s;
+}
+
+.navigation ul li a {
+  font-family: "Raleway", sans-serif;
+  color: #444444;
+  font-weight: bolder;
+  transition: all 0.5s;
+}
+
+.navigation ul li a:hover {
+  color: #f0f3f3;
 }
 
 /*# sourceMappingURL=styles.css.map */
