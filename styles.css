@@ -199,7 +199,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   margin: auto;
-  
+
 }
 
 .gallery-item {
@@ -317,6 +317,10 @@ section {
 }
 
 @media screen and (max-width: 768px) {
+  .splash {
+    height: auto;
+  }
+
   .main-subtitle {
     font-size: 20px;
   }
